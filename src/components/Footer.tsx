@@ -31,10 +31,10 @@ const Footer: React.FC = () => {
     { type: "icon", icon: FaGithubSquare },
     { type: "icon", icon: FaDribbbleSquare },
     // Footer sections
-    { type: "section", title: "Solutions", items: ["Analytics", "Marketing", "Commerce", "Insights"] },
-    { type: "section", title: "Support", items: ["Pricing", "Documentation", "Guides", "API Status"] },
-    { type: "section", title: "Company", items: ["About", "Blog", "Jobs", "Press", "Careers"] },
-    { type: "section", title: "Legal", items: ["Claim", "Policy", "Terms"] },
+    { type: "section", title: "Solutions", items: ["Analytics", "Commerce", "Insights"] },
+    { type: "section", title: "Support", items: ["Pricing", "Guides", "API Status"] },
+    { type: "section", title: "Company", items: ["About", "Blog", "Careers"] },
+    { type: "section", title: "Legal", items: ["Policy", "Terms"] },
   ];
 
   return (

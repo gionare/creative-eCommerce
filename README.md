@@ -39,3 +39,9 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 ## accordion (mobile)
 
 - npm install @heroicons/react (for arrows)
+
+## Footer
+
+- https://medium.com/@ryaddev/building-react-footer-components-with-tailwindcss-6f2c5909a9d1
+- npm install react-icons
+- responsive
