@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Offers() {
   return (
     <div className=" mx-5 my-8 p-6  bg-white text-center">

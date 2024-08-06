@@ -36,7 +36,7 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
         </div>
 
         <DotsGroup className="flex justify-center mt-4" />
-        {/* <Counter className="text-center mt-4" /> */}
+        <Counter className="text-center mt-4" />
       </CarouselProvider>
     </div>
   );

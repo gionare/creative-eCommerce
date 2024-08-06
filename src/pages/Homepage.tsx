@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../components/NavBar";
 import Slider from "../components/Slider";
 import images from "../images.json"; // Adjust the path based on the actual location of your JSON file
