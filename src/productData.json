@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/images/smartphone_aluminium_starlight.jpeg",
+    "title": "Creative mobile Series, Aluminium Case, Starlight Sport",
+    "rating": 4.5,
+    "price": "$699",
+    "reviews": 120
+  },
+  {
+    "id": 2,
+    "image": "/images/smart_watch_carbon_fiber.jpeg",
+    "title": "Innovative Smart Watch, Carbon Fiber Design",
+    "rating": 4.0,
+    "price": "$499",
+    "reviews": 98
+  },
+  {
+    "id": 3,
+    "image": "/images/gaming_console_4k.jpeg",
+    "title": "Next-gen Gaming Console, 4K Resolution",
+    "rating": 4.8,
+    "price": "$399",
+    "reviews": 220
+  },
+  {
+    "id": 4,
+    "image": "/images/drone_1080p_camera.jpeg",
+    "title": "Advanced Drone with 1080p Camera",
+    "rating": 4.3,
+    "price": "$299",
+    "reviews": 150
+  },
+  {
+    "id": 5,
+    "image": "/images/wireless_earbuds_noise_cancellation.jpeg",
+    "title": "Wireless Earbuds with Noise Cancellation",
+    "rating": 4.7,
+    "price": "$199",
+    "reviews": 180
+  },
+  {
+    "id": 6,
+    "image": "/images/smart_home_speaker_voice_assistant.jpeg",
+    "title": "Smart Home Speaker, Voice Assistant",
+    "rating": 4.6,
+    "price": "$129",
+    "reviews": 205
+  }
+]

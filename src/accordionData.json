@@ -1,0 +1,38 @@
+[
+  {
+    "itemNumb": 1,
+    "title": "SHOP",
+    "content": [
+      "Phones",
+      "Tablets",
+      "Watches",
+      "Mobile Accessories",
+      "Mobile Audio",
+      "TV & Home Theater",
+      "Computing",
+      "Home Appliances",
+      "Smart Home",
+      "Shop Certified Re-Newed"
+    ]
+  },
+  {
+    "itemNumb": 2,
+    "title": "SUPPORT",
+    "content": ["Chat with Us", "Product Support", "Your Account", "Contact Us", "Give Feedback"]
+  },
+  {
+    "itemNumb": 3,
+    "title": "OFFERS",
+    "content": ["Offers", "Employee Offers Program", "Business Offers Program"]
+  },
+  {
+    "itemNumb": 4,
+    "title": "SUSTAINABILITY",
+    "content": ["Overview", "Digital Responsibility"]
+  },
+  {
+    "itemNumb": 5,
+    "title": "ABOUT US",
+    "content": ["Our Business", "Brand Identity", "Careers", "Investor Relations", "Newsroom"]
+  }
+]
