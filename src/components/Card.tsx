@@ -10,14 +10,12 @@ export default function Card() {
           </a>
           <div className="px-5 pb-5">
             <a href="#">
-              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white truncate">
-                {product.title}
-              </h5>
+              <h5 className="text-l font-semibold tracking-tight text-gray-900 dark:text-white">{product.title}</h5>
             </a>
             <div className="flex items-center mt-2.5 mb-5">
               <div className="flex items-center space-x-1 rtl:space-x-reverse">
                 {Array.from({ length: Math.floor(product.rating) }).map((_, index) => (
-                  <img key={index} src="/assets/star-2768.svg" alt="" className="w-4 h-4" />
+                  <img key={index} src="/assets/star-2768.svg" alt="" className="w-3.5 h-3.5" />
                 ))}
                 {product.rating % 1 !== 0 && (
                   <svg
@@ -48,10 +46,10 @@ export default function Card() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">{product.price}</span>
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">{product.price}</span>
               <a
                 href="#"
-                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Add to cart
               </a>
