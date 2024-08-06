@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Homepage from "./pages/Homepage";
 
 import "./App.css";
