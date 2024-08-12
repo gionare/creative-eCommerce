@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 import { stack as Menu } from "react-burger-menu"; // Use bubble type menu
 import "./NavBar.css"; // Import styles for react-burger-menu
+import { Link } from "react-router-dom";
 
 const NavBar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -14,7 +15,9 @@ const NavBar: React.FC = () => {
     <>
       <nav className="p-4 ">
         <div className="container mx-auto flex justify-between items-center ">
-          <div className="text-black text-lg">CREATIVE</div>
+          <Link to={"/"}>
+            <div className="text-black text-lg">CREATIVE</div>
+          </Link>
           <ul className="flex space-x-4 ">
             <li className="pt-2">
               <a href="#" className="text-white">

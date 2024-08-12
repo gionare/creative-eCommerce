@@ -14,4 +14,8 @@ export interface Product {
   rating: number;
   price: string;
   reviews: number;
+  description: string;
+  category: string;
+  discount: boolean;
+  additionalImages: string;
 }

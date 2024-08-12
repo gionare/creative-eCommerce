@@ -1,10 +1,17 @@
 import productData from "../productData.json";
+import { useNavigate } from "react-router-dom";
 
 export default function Card() {
+  const navigate = useNavigate();
+
   return (
     <div className="grid grid-cols-2 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {productData.map((product) => (
-        <div key={product.id} className="max-w-xs rounded-lg shadow bg-deep-teal">
+        <div
+          key={product.id}
+          className="max-w-xs rounded-lg shadow bg-deep-teal"
+          onClick={() => navigate(`/product/${product.id}`)}
+        >
           <a href="#">
             <img className="p-6 rounded-t-lg w-full h-48 object-cover" src={product.image} alt={product.title} />
           </a>

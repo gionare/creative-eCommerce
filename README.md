@@ -18,7 +18,7 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 - Properties & examples
   size={} duration={0.8} distance="lg" color="#4FD1C5" easing="ease-in" rounded label="Show menu" hideOutline={false}
 
-## react-burger-menu
+## react-burger-menu (Hamburger)
 
 - https://www.npmjs.com/package/@katasonovyp/react-burger-menu
   npm install react-burger-menu --save
@@ -45,3 +45,8 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 - https://medium.com/@ryaddev/building-react-footer-components-with-tailwindcss-6f2c5909a9d1
 - npm install react-icons
 - responsive
+
+## React image Zoom ( image picker: )
+
+- npm i react-image-zoom
+- https://mario-duarte.github.io/react-image-zooom/
