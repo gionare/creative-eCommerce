@@ -1,17 +1,18 @@
 import React, { useState, useRef, useEffect } from "react";
+
+// @ts-ignore
 import ImageZoom from "react-image-zooom";
 import "./GalleryWithPickerZoom.css";
 
 interface GalleryWithPickerZoomProps {
   images: string[];
-  mainImage: string; // Accept the main image as a prop
+  mainImage: string;
 }
 
 const GalleryWithPickerZoom: React.FC<GalleryWithPickerZoomProps> = ({ images, mainImage }) => {
   const [galleryImage, setGalleryImage] = useState(mainImage);
   const galleryRef = useRef<HTMLDivElement>(null);
 
-  // Handle click outside of the gallery to reset to mainImage
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (galleryRef.current && !galleryRef.current.contains(event.target as Node)) {
