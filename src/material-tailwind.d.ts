@@ -16,6 +16,17 @@ export interface Product {
   reviews: number;
   description: string;
   category: string;
-  discount: boolean;
-  additionalImages: string;
+  discount: string; // Adjusted from boolean to string to represent discount value
+  additionalImages: string[];
+  colorOptions: string[]; // Array of color options
+  warranty: string; // Warranty information
+  deliveryTime: string; // Delivery time estimate
+  stock: string; // Stock status
+  recentlyAdded: boolean; // Indicates if the product was recently added
+}
+
+export interface BrandsType {
+  name: string;
+  image: string;
+  url: string;
 }

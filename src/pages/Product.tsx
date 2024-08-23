@@ -5,6 +5,7 @@ import Accordion from "../components/Accordion";
 import NavBar from "../components/NavBar";
 import GalleryWithPickerZoom from "../components/GalleryWithPickerZoom";
 import Stars from "../components/Stars"; // Import the Stars component
+import TrustedBrandsSlider from "../components/TrustedBrandsSlider";
 
 export default function Product() {
   const { id } = useParams<{ id: string }>(); // Get the product ID from the URL
@@ -40,6 +41,8 @@ export default function Product() {
             <p className="text-sm text-gray-600">Reviews: {product.reviews}</p>
           </article>
         </section>
+
+        <TrustedBrandsSlider />
 
         <section className="mt-8">
           <Accordion />

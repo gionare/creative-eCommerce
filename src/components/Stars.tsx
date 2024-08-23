@@ -1,4 +1,3 @@
-// src/components/Stars.tsx
 import React from "react";
 
 interface StarsProps {
@@ -13,12 +12,7 @@ const Stars: React.FC<StarsProps> = ({ rating }) => {
   return (
     <div className="flex items-center">
       {Array.from({ length: fullStars }).map((_, index) => (
-        <img
-          key={index}
-          src="/assets/star-2768.svg" // Replace with the path to your full star icon
-          alt="Full star"
-          className="w-4 h-4"
-        />
+        <img key={index} src="/assets/star-2768.svg" alt="Full star" className="w-4 h-4" />
       ))}
       {hasHalfStar && (
         <svg
