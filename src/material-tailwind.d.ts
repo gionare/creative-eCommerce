@@ -32,6 +32,16 @@ export interface BrandsType {
 }
 
 declare module "react-image-zooom" {
-  const ImageZoom: any;
+  import React from "react";
+
+  interface ImageZoomProps {
+    src: string;
+    alt?: string;
+    zoom?: string | number;
+    className?: string;
+  }
+
+  const ImageZoom: React.FC<ImageZoomProps>;
+
   export default ImageZoom;
 }
