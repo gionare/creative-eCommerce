@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar";
 import GalleryWithPickerZoom from "../components/GalleryWithPickerZoom";
 import Stars from "../components/Stars"; // Import the Stars component
 import TrustedBrandsSlider from "../components/TrustedBrandsSlider";
-// import d3Rotate from "../components/d3Rotate";
+import D3_Rotate from "../components/D3_Rotate";
 import Slider_3d from "../components/Slider_3d";
 
 export default function Product() {
@@ -54,6 +54,10 @@ export default function Product() {
 
         <section className="mt-8">
           <Accordion />
+        </section>
+
+        <section>
+          <D3_Rotate />
         </section>
       </main>
 
