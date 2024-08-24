@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
-// @ts-ignore
-import ImageZoom from "react-image-zooom";
 import "./GalleryWithPickerZoom.css";
+import ImageZoom from "react-image-zooom";
 
 interface GalleryWithPickerZoomProps {
   images: string[];
@@ -31,13 +30,7 @@ const GalleryWithPickerZoom: React.FC<GalleryWithPickerZoomProps> = ({ images, m
   return (
     <div className="gallery" ref={galleryRef}>
       {images.map((image, index) => (
-        <img
-          key={index}
-          className={`img${index + 1}`}
-          src={image}
-          alt={`Image ${index + 1}`}
-          onClick={() => handleClick(image)}
-        />
+        <img key={index} className={`img${index + 1}`} src={image} alt={`Image ${index + 1}`} onClick={() => handleClick(image)} />
       ))}
       <ImageZoom className="FullImageZoom" src={galleryImage} alt="Zoomed product image" zoom="250" />
     </div>

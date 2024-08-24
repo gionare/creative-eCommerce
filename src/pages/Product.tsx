@@ -6,6 +6,8 @@ import NavBar from "../components/NavBar";
 import GalleryWithPickerZoom from "../components/GalleryWithPickerZoom";
 import Stars from "../components/Stars"; // Import the Stars component
 import TrustedBrandsSlider from "../components/TrustedBrandsSlider";
+// import d3Rotate from "../components/d3Rotate";
+import Slider_3d from "../components/Slider_3d";
 
 export default function Product() {
   const { id } = useParams<{ id: string }>(); // Get the product ID from the URL
@@ -21,13 +23,13 @@ export default function Product() {
     <div>
       <NavBar />
 
-      <main className="max-w-4xl mx-auto p-6">
-        <section className="flex flex-col">
-          <aside className="w-full">
+      <main className="max-w-7xl mx-auto p-6 flex-1 mt-6">
+        <section className="flex flex-col md:flex-row ">
+          <aside className="w-full md:w-[70%] bg-white ">
             <GalleryWithPickerZoom images={product.additionalImages} mainImage={product.image} />
           </aside>
 
-          <article className="w-full md:pl-6">
+          <article className="w-full md:w-[40%] md:pl-6">
             <h1 className="text-3xl font-bold mb-4">{product.title}</h1>
             <p className="text-lg mb-4">{product.description}</p>
             <p className="text-xl font-semibold mb-4">{product.price}</p>
@@ -42,7 +44,13 @@ export default function Product() {
           </article>
         </section>
 
-        <TrustedBrandsSlider />
+        <Slider_3d />
+
+        <section className="mt-12">
+          <TrustedBrandsSlider />
+        </section>
+
+        {/* <d3Rotate /> */}
 
         <section className="mt-8">
           <Accordion />

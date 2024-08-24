@@ -6,7 +6,7 @@ export default function TrustedBrandsSlider() {
   return (
     <div className="py-12  overflow-hidden">
       <h1 className="text-3xl font-extrabold text-center mb-8 text-gray-800">The most trusted brands for local businesses and personal use</h1>
-      <div className="relative">
+      <div className="">
         <div className="flex animate-scroll space-x-8">
           {brandsData.map((brand) => (
             <div

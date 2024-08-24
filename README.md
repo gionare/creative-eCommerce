@@ -10,7 +10,9 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 
 - icons8.com
 
-## Animated hamburger icons
+## hamburger-react Animated hamburger icon
+
+![Hamburger Menu Example](/HamburgerSling.png)
 
 - https://hamburger-react.netlify.app/
 - npm install hamburger-react
@@ -18,7 +20,9 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 - Properties & examples
   size={} duration={0.8} distance="lg" color="#4FD1C5" easing="ease-in" rounded label="Show menu" hideOutline={false}
 
-## react-burger-menu (Hamburger)
+## react-burger-menu (Hamburger) NavBar
+
+![React-Burger-Menu](/react-burger-menu.png)
 
 - https://www.npmjs.com/package/@katasonovyp/react-burger-menu
   npm install react-burger-menu --save

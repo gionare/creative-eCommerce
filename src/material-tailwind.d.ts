@@ -30,3 +30,8 @@ export interface BrandsType {
   image: string;
   url: string;
 }
+
+declare module "react-image-zooom" {
+  const ImageZoom: any;
+  export default ImageZoom;
+}
