@@ -32,7 +32,7 @@ const GalleryWithPickerZoom: React.FC<GalleryWithPickerZoomProps> = ({ images, m
       {images.map((image, index) => (
         <img key={index} className={`img${index + 1}`} src={image} alt={`Image ${index + 1}`} onClick={() => handleClick(image)} />
       ))}
-      <ImageZoom className="FullImageZoom" src={galleryImage} alt="Zoomed product image" zoom="250" />
+      <ImageZoom className="FullImageZoom" src={galleryImage} alt="Zoomed product image" zoom={250} />
     </div>
   );
 };
