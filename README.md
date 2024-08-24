@@ -58,6 +58,6 @@ For detailed properties and usage, refer to the link above.
 
 ## slider_3d
 
-![slider_3D_using_css_only](https://github.com/HoanghoDev/youtube_v2/assets/110652388/1199db3d-ca34-4bb1-bb1b-08b12c1b9995)
+<img src="https://github.com/HoanghoDev/youtube_v2/assets/110652388/1199db3d-ca34-4bb1-bb1b-08b12c1b9995" alt="slider_3D_using_css_only" width="550">
 
 https://github.com/HoanghoDev/youtube_v2/tree/main/slider_3d
