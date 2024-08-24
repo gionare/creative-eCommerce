@@ -55,3 +55,9 @@ For detailed properties and usage, refer to the link above.
 
 - npm i react-image-zoom
 - https://mario-duarte.github.io/react-image-zooom/
+
+## slider_3d
+
+![slider_3D_using_css_only](https://github.com/HoanghoDev/youtube_v2/assets/110652388/1199db3d-ca34-4bb1-bb1b-08b12c1b9995)
+
+https://github.com/HoanghoDev/youtube_v2/tree/main/slider_3d
