@@ -22,7 +22,7 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 
 ## React-Burger-Menu (Hamburger) NavBar
 
-<img src="public/react-burger-menu.png" alt="React-Burger-Menu" width="300">
+<img src="public/react-burger-menu.png" alt="React-Burger-Menu" width="450">
 
 - [React-Burger-Menu on npm](https://www.npmjs.com/package/@katasonovyp/react-burger-menu)
 - Install with `npm install react-burger-menu --save`
