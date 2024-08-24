@@ -10,24 +10,25 @@ Demo: https://creative-e-commerce-tk7x.vercel.app/#
 
 - icons8.com
 
-## hamburger-react Animated hamburger icon
+## Hamburger-React Animated Hamburger Icon
 
 ![Hamburger Menu Example](public/HamburgerSling.png)
 
-- https://hamburger-react.netlify.app/
-- npm install hamburger-react
-  import { Sling as Hamburger } from "hamburger-react";
+- [Hamburger-React Official Website](https://hamburger-react.netlify.app/)
+- Install with `npm install hamburger-react`
+- Import using `import { Sling as Hamburger } from "hamburger-react";`
 - Properties & examples
   size={} duration={0.8} distance="lg" color="#4FD1C5" easing="ease-in" rounded label="Show menu" hideOutline={false}
 
-## react-burger-menu (Hamburger) NavBar
+## React-Burger-Menu (Hamburger) NavBar
 
-![React-Burger-Menu](public/react-burger-menu.png)
+<img src="public/react-burger-menu.png" alt="React-Burger-Menu" width="300">
 
-- https://www.npmjs.com/package/@katasonovyp/react-burger-menu
-  npm install react-burger-menu --save
-  import { slide as Menu } from 'react-burger-menu'
-  for properties use link above
+- [React-Burger-Menu on npm](https://www.npmjs.com/package/@katasonovyp/react-burger-menu)
+- Install with `npm install react-burger-menu --save`
+- Import using `import { slide as Menu } from 'react-burger-menu'`
+
+For detailed properties and usage, refer to the link above.
 
 ## Gallery - Material Tailwind
 
