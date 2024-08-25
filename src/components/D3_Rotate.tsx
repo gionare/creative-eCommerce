@@ -25,8 +25,8 @@ const Banner: React.FC = () => {
   return (
     <div className="banner  border pt-10 mt-10 ">
       <div className="product">
-        <div className="soda" style={{ "--url": "url(/assetsForProductPage/slider_3d/mouseblk.png)" } as React.CSSProperties}></div>
-        <div className="soda" style={{ "--url": "url(/assetsForProductPage/slider_3d/mouseblk.png)" } as React.CSSProperties}></div>
+        <div className="soda" style={{ "--url": "url(/images/razer-viper-mini-png.png)" } as React.CSSProperties}></div>
+        <div className="soda" style={{ "--url": "url(/images/razer-viper-mini-png.png)" } as React.CSSProperties}></div>
       </div>
 
       <div className="rock">

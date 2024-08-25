@@ -7,10 +7,7 @@ const Slider3D: React.FC = () => {
   return (
     <div className="relative ">
       <div className="banner">
-        <div className="slider" style={{ "--quantity": 10 } as React.CSSProperties}>
-          <div className="item" style={{ "--position": 1 } as React.CSSProperties}>
-            <img src="/assetsForProductPage/slider_3d/3phones.png" alt="phones" onClick={() => navigate(`/product/1`)} />
-          </div>
+        <div className="slider" style={{ "--quantity": 9 } as React.CSSProperties}>
           <div className="item" style={{ "--position": 2 } as React.CSSProperties}>
             <img src="/assetsForProductPage/slider_3d/3watches.png" alt="watches" onClick={() => navigate("/product/2")} />
           </div>
@@ -36,7 +33,7 @@ const Slider3D: React.FC = () => {
             <img src="/assetsForProductPage/slider_3d/speaker.png" alt="speaker" onClick={() => navigate("/product/6")} />
           </div>
           <div className="item" style={{ "--position": 10 } as React.CSSProperties}>
-            <img src="/assetsForProductPage/slider_3d/console.png" alt="console" onClick={() => navigate("/product/3")} />
+            <img src="/images/NANOTECH_ASUS_PWD_2.png" alt="PC" onClick={() => navigate("/product/8")} />
           </div>
         </div>
         <div className="content">
@@ -44,9 +41,8 @@ const Slider3D: React.FC = () => {
           <div className="author">
             <h2>shopping</h2>
             <p>
-              <b>with</b>
+              <b>Top Sellers</b>
             </p>
-            <p>pleasure</p>
           </div>
           <div className="model"></div>
         </div>

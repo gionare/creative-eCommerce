@@ -26,11 +26,7 @@
     "description": "This innovative smart watch with a carbon fiber design offers style and functionality in one. Equipped with advanced fitness tracking, notifications, and customizable watch faces, it’s perfect for the tech-savvy individual.",
     "category": "Wearables",
     "discount": "false",
-    "additionalImages": [
-      "/images/smart_watch_carbon_fiber_side.jpeg",
-      "/images/smart_watch_carbon_fiber_angle.jpeg",
-      "/images/smart_watch_carbon_fiber_back.jpeg"
-    ]
+    "additionalImages": ["/images/watch_2.jpg", "/images/watch_3.jpg", "/images/watch_4.jpg"]
   },
   {
     "id": 3,
@@ -54,7 +50,7 @@
     "description": "Capture stunning aerial footage with this advanced drone equipped with a 1080p camera. It offers a stable flight, easy controls, and various shooting modes for both hobbyists and professionals.",
     "category": "Drones",
     "discount": "true",
-    "additionalImages": ["/images/drone_1080p_camera_side.jpeg", "/images/drone_1080p_camera_angle.jpeg", "/images/drone_1080p_camera_back.jpeg"]
+    "additionalImages": ["/images/drone_2.jpg", "/images/drone_3.jpg", "/images/drone_4.jpg"]
   },
   {
     "id": 5,
@@ -66,11 +62,7 @@
     "description": "Enjoy crystal-clear sound and immersive audio with these wireless earbuds featuring active noise cancellation. Perfect for on-the-go listening, they offer a comfortable fit and long battery life.",
     "category": "Audio",
     "discount": "false",
-    "additionalImages": [
-      "/images/wireless_earbuds_noise_cancellation_case.jpeg",
-      "/images/wireless_earbuds_noise_cancellation_side.jpeg",
-      "/images/wireless_earbuds_noise_cancellation_angle.jpeg"
-    ]
+    "additionalImages": ["/images/earbuds_2.jpg", "/images/earbuds_3.jpg", "/images/earbuds_4.jpg"]
   },
   {
     "id": 6,
@@ -82,11 +74,7 @@
     "description": "Control your smart home with ease using this voice assistant-enabled smart speaker. It offers superior sound quality and integrates seamlessly with your home automation system.",
     "category": "Smart Home",
     "discount": "true",
-    "additionalImages": [
-      "/images/smart_home_speaker_voice_assistant_side.jpeg",
-      "/images/smart_home_speaker_voice_assistant_angle.jpeg",
-      "/images/smart_home_speaker_voice_assistant_back.jpeg"
-    ]
+    "additionalImages": ["/images/speaker_2.jpg", "/images/speaker_3.jpg", "/images/speaker_4.jpg"]
   },
   {
     "id": 7,
@@ -107,15 +95,15 @@
 
   {
     "id": 8,
-    "image": "/images/tower_computer_lights.jpeg",
-    "title": "High-Performance Tower Computer with RGB Lighting",
+    "image": "/images/NANOTECH_ASUS_PWD_2.png",
+    "title": "NANOTECH ASUS PWD.",
     "rating": 4.8,
     "price": "1499",
     "reviews": 120,
     "description": "Experience the ultimate power with this high-performance tower computer, featuring stunning RGB lighting and the latest hardware components for gaming and productivity.",
     "category": "Computers",
     "discount": "5",
-    "additionalImages": ["/images/tower_computer_lights_side.jpeg", "/images/tower_computer_lights_inside.jpeg", "/images/tower_computer_lights_back.jpeg"],
+    "additionalImages": ["/images/NANOTECH_ASUS_PWD_3.png", "/images/NANOTECH_ASUS_PWD_4.png", "/images/NANOTECH_ASUS_PWD_png.png"],
     "colorOptions": ["Black", "White"],
     "warranty": "2 years",
     "deliveryTime": "3-5 business days",
@@ -166,7 +154,7 @@
   },
   {
     "id": 11,
-    "image": "/images/aerox_5_wl_black_pdp_tile_d_74g.png__1600x1600_q100_crop-scale_optimize_subsampling-2.webp",
+    "image": "/images/aerox_5_2.png",
     "title": "Red Gaming Mouse with Flame Design, High DPI",
     "rating": 4.7,
     "price": "79",
@@ -174,11 +162,7 @@
     "description": "Dominate your gaming sessions with this red gaming mouse featuring a flame design and ultra-high DPI for fast and accurate movements. A must-have for serious gamers.",
     "category": "Accessories",
     "discount": "5",
-    "additionalImages": [
-      "/images/aerox_5_wl_black_img_buy_02.png__1920x1080_crop-fit_optimize_subsampling-2.png",
-      "/images/aerox_5_wl_black_pdp_tile_d_smp.png__1600x1600_crop-scale_optimize_subsampling-2.png",
-      "/images/aerox_family_black_front_modal_full.png__1600x1600_q100_crop-scale_optimize_subsampling-2.webp"
-    ],
+    "additionalImages": ["/images/aerox_family_black_5.webp", "/images/aerox_5_wl_black_4.png", "/images/aerox_5_wl_black_3.webp"],
     "colorOptions": ["Red", "Black"],
     "warranty": "1 year",
     "deliveryTime": "1-3 business days",
@@ -195,7 +179,11 @@
     "description": "NANOTECH ASUS PWD. TUF Ultimate Workstation Powered By 4090: AMD Threadripper 3955WX 16 Cores 32 Threads, Nvidia RTX 4090 OC (24GB GDDR6X), 128GB RAM 3200Mhz, 4TB SSD Gen4, 1200W PSU Gold Rated, 360 Liquid Cooling, WiFi+BT, Win11 Pro, 1 Year Warranty",
     "category": "Accessories",
     "discount": "20",
-    "additionalImages": ["/assetsForProductPage/slider_3d/pcblk2.webp"],
+    "additionalImages": [
+      "/assetsForProductPage/slider_3d/pcblk2.gif",
+      "/assetsForProductPage/slider_3d/pcblk2.webp",
+      "/assetsForProductPage/slider_3d/pcblk3.gif"
+    ],
     "colorOptions": ["Black", "Red", "Blue"],
     "warranty": "1 year",
     "deliveryTime": "2-4 business days",

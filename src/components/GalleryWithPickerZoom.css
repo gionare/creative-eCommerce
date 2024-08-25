@@ -18,8 +18,9 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 5px;
-  margin: 60px auto;
-  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0px;
 
   img {
     width: 100%;
@@ -41,5 +42,6 @@
   .FullImageZoom {
     width: 100%;
     grid-area: 1 / 2 / 4 / 5;
+    background-color: #fff !important; /* Set the background color to white */
   }
 }

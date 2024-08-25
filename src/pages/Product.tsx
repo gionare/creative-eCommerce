@@ -24,8 +24,8 @@ export default function Product() {
       <NavBar />
 
       <main className="max-w-7xl mx-auto p-6 flex-1 mt-6">
-        <section className="flex flex-col md:flex-row ">
-          <aside className="w-full md:w-[70%] bg-white ">
+        <section className="flex flex-col md:flex-row place-items-start">
+          <aside className="w-full md:w-[70%]">
             <GalleryWithPickerZoom images={product.additionalImages} mainImage={product.image} />
           </aside>
 
@@ -44,21 +44,13 @@ export default function Product() {
           </article>
         </section>
 
-        <Slider_3d />
+        {/* <Slider_3d /> */}
 
-        <section className="mt-12">
-          <TrustedBrandsSlider />
-        </section>
+        <section className="mt-12">{/* <TrustedBrandsSlider /> */}</section>
 
-        {/* <d3Rotate /> */}
+        <section className="mt-8">{/* <Accordion /> */}</section>
 
-        <section className="mt-8">
-          <Accordion />
-        </section>
-
-        <section>
-          <D3_Rotate />
-        </section>
+        <section>{/* <D3_Rotate /> */}</section>
       </main>
 
       <Footer />
