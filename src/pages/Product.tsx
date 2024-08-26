@@ -46,7 +46,9 @@ export default function Product() {
 
         {/* <Slider_3d /> */}
 
-        <section className="mt-12">{/* <TrustedBrandsSlider /> */}</section>
+        <section className="mt-12">
+          <TrustedBrandsSlider />
+        </section>
 
         <section className="mt-8">{/* <Accordion /> */}</section>
 

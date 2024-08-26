@@ -1,5 +1,5 @@
 /* Add this in your global CSS file */
-/* @keyframes scroll {
+@keyframes scroll {
   0% {
     transform: translateX(100%);
   }
@@ -14,4 +14,4 @@
 
 .relative {
   background-color: white;
-} */
+}
