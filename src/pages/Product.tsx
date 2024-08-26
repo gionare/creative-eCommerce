@@ -50,10 +50,12 @@ export default function Product() {
           <TrustedBrandsSlider />
         </section>
 
-        <section className="mt-8">{/* <Accordion /> */}</section>
-
-        <section>
+        <section className="hidden md:block">
           <D3_Rotate />
+        </section>
+
+        <section className="  mt-8">
+          <Accordion />
         </section>
       </main>
 
