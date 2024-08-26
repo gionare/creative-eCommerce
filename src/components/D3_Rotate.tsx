@@ -37,7 +37,7 @@ const Banner: React.FC = () => {
 
   return (
     <div className="banner  border pt-10 mt-10 " onClick={handleClick}>
-      <div className="product">
+      <div className="product hover:cursor-pointer">
         <div className="soda" style={{ "--url": "url(/images/razer-viper-mini-png.png)" } as React.CSSProperties}></div>
         <div className="soda" style={{ "--url": "url(/images/razer-viper-mini-png.png)" } as React.CSSProperties}></div>
       </div>

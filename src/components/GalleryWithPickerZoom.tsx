@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-
 import "./GalleryWithPickerZoom.css";
 import ImageZoom from "react-image-zooom";
 
@@ -11,6 +10,11 @@ interface GalleryWithPickerZoomProps {
 const GalleryWithPickerZoom: React.FC<GalleryWithPickerZoomProps> = ({ images, mainImage }) => {
   const [galleryImage, setGalleryImage] = useState(mainImage);
   const galleryRef = useRef<HTMLDivElement>(null);
+
+  // Reset galleryImage when mainImage prop changes
+  useEffect(() => {
+    setGalleryImage(mainImage);
+  }, [mainImage]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
