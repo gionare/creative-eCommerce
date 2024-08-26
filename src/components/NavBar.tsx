@@ -52,33 +52,39 @@ const NavBar: React.FC = () => {
           </ul>
         </div>
       </nav>
-      <Menu right isOpen={isOpen} onStateChange={handleMenuToggle}>
-        <a id="shop" className="menu-item" href="/shop">
-          Shop
-        </a>
-        <a id="ai" className="menu-item" href="/ai">
-          AI
-        </a>
-        <a id="mobile" className="menu-item" href="/mobile">
+      <Menu right isOpen={isOpen} onStateChange={handleMenuToggle} className="bg-gray-900 text-white">
+        <a id="mobile" className="menu-item menu-item-hover-translate" href="/mobile">
           Mobile
         </a>
-        <a id="tv-audio" className="menu-item" href="/tv-audio">
-          TV & Audio
+        <a id="ai" className="menu-item menu-item-hover-rotate" href="/ai">
+          AI
         </a>
-        <a id="appliances" className="menu-item" href="/appliances">
-          Appliances
+        <a id="tablets" className="menu-item menu-item-hover-gradient" href="/tablets">
+          Tablets
         </a>
-        <a id="computing" className="menu-item" href="/computing">
+        <a id="watches" className="menu-item menu-item-hover-translate-y" href="/watches">
+          Watches
+        </a>
+        <a id="home-appliance" className="menu-item menu-item-hover-border" href="/home-appliance">
+          Home Appliance
+        </a>
+        <a id="computing" className="menu-item menu-item-hover-bounce" href="/computing">
           Computing
         </a>
-        <a id="displays" className="menu-item" href="/displays">
-          Displays
+        <a id="headphone" className="menu-item menu-item-hover-pulse" href="/headphone">
+          Headphone
         </a>
-        <a id="accessories" className="menu-item" href="/accessories">
-          Accessories
+        <a id="keyboard" className="menu-item menu-item-hover-bg-gradient" href="/keyboard">
+          Keyboard
         </a>
-        <a id="smartthings" className="menu-item" href="/smartthings">
-          SmartThings
+        <a id="monitor" className="menu-item menu-item-hover-translate-y" href="/monitor">
+          Monitor
+        </a>
+        <a id="mouse" className="menu-item menu-item-hover-translate-x" href="/mouse">
+          Mouse
+        </a>
+        <a id="renewed" className="menu-item menu-item-hover-rotate-small" href="/shop-certified-re-newed">
+          Shop Certified Re-Newed
         </a>
       </Menu>
     </>

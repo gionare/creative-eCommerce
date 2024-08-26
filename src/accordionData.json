@@ -2,18 +2,7 @@
   {
     "itemNumb": 1,
     "title": "SHOP",
-    "content": [
-      "Phones",
-      "Tablets",
-      "Watches",
-      "Mobile Accessories",
-      "Mobile Audio",
-      "TV & Home Theater",
-      "Computing",
-      "Home Appliances",
-      "Smart Home",
-      "Shop Certified Re-Newed"
-    ]
+    "content": ["Mobile", "AI", "Tablets", "Watches", "Home Appliances", "Computing", "Headphone", "Keyboard", "Monitor", "Mouse", "Shop Certified Re-Newed"]
   },
   {
     "itemNumb": 2,

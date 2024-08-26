@@ -50,3 +50,112 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 } */
+
+.hover\:shadow-neon:hover {
+  box-shadow: 0 0 8px rgba(0, 47, 255, 0.8), 0 0 15px rgba(255, 255, 0, 0.6);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.menu-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  background-color: #4a5568; /* Equivalent to gray-700 */
+  color: #facc15; /* Equivalent to yellow-400 */
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); /* Neon shadow */
+}
+
+.menu-item-hover-translate {
+  &:hover {
+    transform: translate(-0.5rem, -0.5rem);
+  }
+}
+
+.menu-item-hover-rotate {
+  &:hover {
+    transform: rotate(6deg) scale(1.1);
+  }
+}
+
+.menu-item-hover-gradient {
+  &:hover {
+    background: linear-gradient(to right, #2563eb, #ef4444); /* Blue-600 to red-600 */
+    opacity: 0.75;
+    transform: scale(0.95);
+  }
+}
+
+.menu-item-hover-border {
+  &:hover {
+    border: 4px solid #facc15; /* Equivalent to yellow-400 */
+  }
+}
+
+.menu-item-hover-bounce {
+  &:hover {
+    animation: bounce 1s infinite;
+  }
+}
+
+.menu-item-hover-pulse {
+  &:hover {
+    animation: pulse 1s infinite;
+  }
+}
+
+.menu-item-hover-bg-gradient {
+  &:hover {
+    background: linear-gradient(to right, #10b981, #f97316); /* Green-600 to orange-600 */
+    opacity: 0.75;
+    transform: scale(0.95);
+  }
+}
+
+.menu-item-hover-translate-y {
+  &:hover {
+    transform: translateY(0.5rem);
+  }
+}
+
+.menu-item-hover-translate-x {
+  &:hover {
+    transform: translateX(0.5rem);
+  }
+}
+
+.menu-item-hover-rotate-small {
+  &:hover {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
