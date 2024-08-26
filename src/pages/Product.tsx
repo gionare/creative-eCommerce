@@ -44,7 +44,7 @@ export default function Product() {
           </article>
         </section>
 
-        {/* <Slider_3d /> */}
+        <Slider_3d />
 
         <section className="mt-12">
           <TrustedBrandsSlider />
@@ -52,7 +52,9 @@ export default function Product() {
 
         <section className="mt-8">{/* <Accordion /> */}</section>
 
-        <section>{/* <D3_Rotate /> */}</section>
+        <section>
+          <D3_Rotate />
+        </section>
       </main>
 
       <Footer />

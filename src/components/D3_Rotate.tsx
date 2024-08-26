@@ -1,5 +1,6 @@
 import React from "react";
 import "./D3_Rotate.css";
+import { useNavigate } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
@@ -22,8 +23,20 @@ const Header: React.FC = () => {
 };
 
 const Banner: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/product/10");
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, 100); // Adjust the delay if needed
+  };
+
   return (
-    <div className="banner  border pt-10 mt-10 ">
+    <div className="banner  border pt-10 mt-10 " onClick={handleClick}>
       <div className="product">
         <div className="soda" style={{ "--url": "url(/images/razer-viper-mini-png.png)" } as React.CSSProperties}></div>
         <div className="soda" style={{ "--url": "url(/images/razer-viper-mini-png.png)" } as React.CSSProperties}></div>

@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 .relative {
+  margin-top: 80px;
   background-color: #d2d2d293;
   background-image: repeating-linear-gradient(to right, transparent 0 100px, #25283b22 100px 101px),
     repeating-linear-gradient(to bottom, transparent 0 100px, #25283b22 100px 101px);

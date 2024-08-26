@@ -2,12 +2,14 @@
 .D3_Rotate {
   min-height: 100vh;
   margin: 0;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   font-family: Poppins;
   color: #1e1e1e;
   background-color: #cdcdcd;
-  background-image: repeating-linear-gradient(to right, transparent 0 150px, #0001 150px 151px),
-    repeating-linear-gradient(to bottom, transparent 0 150px, #0001 150px 151px), linear-gradient(to right, #cdcdcdcc, #cdcdcdcc), url(images/bg.jpg);
+  background-image: repeating-linear-gradient(to right, transparent 0 150px, rgba(0, 0, 0, 0.166) 150px 151px),
+    repeating-linear-gradient(to bottom, transparent 0 150px, rgba(0, 0, 0, 0.124) 150px 151px), linear-gradient(to right, #cdcdcd00, #cdcdcd58),
+    url(/assetsForProductPage/3dRotate/bg.jpg);
+  background-size: auto, auto, auto, cover;
 }
 * {
   padding: 0;
